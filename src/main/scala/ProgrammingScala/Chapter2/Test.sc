@@ -16,4 +16,7 @@ s"Hello,$name"
 //这里要用到的是{},而不(),要注意
 s"1+1=${1+1}"
 
-
+//在scala中参数化类型(java中泛型)用[]表示
+val strings:List[String]=List("one","two","three")
+//Any代表任意类型
+val anys:List[Any]=List(1,"one",2,"two")

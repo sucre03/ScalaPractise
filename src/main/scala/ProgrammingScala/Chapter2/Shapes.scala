@@ -19,4 +19,4 @@ abstract class Shape(){
       f(s"draw(offset=$offset),{this.toString}")
 }
 case class Circle(center:Point,radius:Double) extends Shape
-case class Rectangle(lowerLeft:Point,height:Double,width:Doubles) extends Shape
+case class Rectangle(lowerLeft:Point,height:Double,width:Double) extends Shape

@@ -12,3 +12,5 @@ println(s"Print the third item:${t._3}")
 println(t1+","+t2+","+t3)
 val (t4,t5,t6) =Tuple3("World",'!',0x22)
 println(t4+","+t5+","+t6)
+
+
