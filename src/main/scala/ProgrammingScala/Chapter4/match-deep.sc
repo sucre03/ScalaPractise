@@ -27,3 +27,5 @@ for(person<-Seq(alice,bob,charlie)){
   }
 
 }
+//根据模式匹配可以更简单的提取对象中的取
+val Person(name,age,Address(_,city,_))=Person("qiaolei",11,Address("changying","beijing","china"))
