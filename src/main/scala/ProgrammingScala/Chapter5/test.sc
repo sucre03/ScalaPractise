@@ -3,3 +3,7 @@
 def calcTax(amount:Float)(implicit rate:Float)=amount*rate
 implicit val currentTaxRate = 0.08F
 val tax = calcTax(5000F)
+
+val a = List(0,1,2)
+val b = List(1,2,3,5,6)
+val c = a zip b
